@@ -11,7 +11,7 @@ This is a site that gives users users Akan names. The names are given once the u
 ## Known Bugs
 There are currently no bugs. If you experience any bugs, don't hesitate to contact me.
 ## Technologies Used
-The site has been developed using HTML, Bootstrap css and JavaScript
+The site has been developed using HTML, CSS, Bootstrap and JavaScript
 ## Support and contact details
 Contact: paulkush7777@gmail.com
 ### License
