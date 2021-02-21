@@ -12,5 +12,11 @@ window.addEventListener("DOMContentLoaded",function(){
 
         const gender = document.querySelector("#gender").value;
         // console.log("gender",gender);
+
+        let dateInput = document.querySelector("#date").value;
+        let dayofBirth = new Date(dateInput);
+        dobDay = dayofBirth.getDay();
+        dateInput = dobDay;
+        console.log(dateInput);
     });
 });
