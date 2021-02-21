@@ -36,7 +36,7 @@ window.addEventListener("DOMContentLoaded",function(){
             nameList.push(femaleGender[dobDay]);
             displayName();
         } else { 
-            alert("Error chose male or femlae");
+            alert("Error chose male or female");
         }
 
         function displayName() { 
