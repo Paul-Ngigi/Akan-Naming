@@ -26,6 +26,7 @@ window.addEventListener("DOMContentLoaded",function(){
 
         nameTbody.appendChild(nameRow);
 
-        let maleGender = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+        let maleGender = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+        let femaleGender = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     });
 });
