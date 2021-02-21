@@ -3,8 +3,11 @@ window.addEventListener("DOMContentLoaded",function(){
 
     const dateForm = document.querySelector("#dateForm");
     const nameTbody = document.querySelector("#nameTbody");
+    console.log("Form added",dateForm);
+    console.log("Table body",nameTbody);
 
     dateForm.addEventListener("submit", function(event){
         event.preventDefault();
+        console.log("Submitted")
     })
 });
