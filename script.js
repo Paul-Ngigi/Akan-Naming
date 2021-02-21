@@ -17,6 +17,13 @@ window.addEventListener("DOMContentLoaded",function(){
         let dayofBirth = new Date(dateInput);
         dobDay = dayofBirth.getDay();
         dateInput = dobDay;
-        console.log(dateInput);
+        // console.log(dateInput);
+
+        let nameRow = document.createElement("tr");
+        let nameData = document.createElement("td");
+
+        nameRow.appendChild(nameData);
+
+        nameTbody.appendChild(nameRow);
     });
 });
