@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded",function(){
     let nameList = new Array();
     const dateForm = document.querySelector("#dateForm");
     const nameTbody = document.querySelector("#nameTbody");
-    // console.log("Form added",dateForm);
+    console.log("Form added",dateForm);
     // console.log("Table body",nameTbody);
 
     dateForm.addEventListener("submit", function(event){
@@ -36,7 +36,7 @@ window.addEventListener("DOMContentLoaded",function(){
             nameList.push(femaleGender[dobDay]);
             displayName();
         } else { 
-            alert("Error chose male or female");
+            alert("Error!Please select your gender");
         }
 
         function displayName() { 
