@@ -15,4 +15,4 @@ The site has been developed using HTML, CSS, Bootstrap and JavaScript
 ## Support and contact details
 Contact: paulkush7777@gmail.com
 ### License
-*MIT*
+MIT
